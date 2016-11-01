@@ -1,0 +1,102 @@
+body {
+  width: 99%;
+  height: 900px;
+  background-color: #4db8ff;
+}
+#top-bar {
+  margin-top: 28px;
+}
+.spacing-reset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+.list-reset {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.text-center {
+    margin: auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 990px;
+    margin-top: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 990px;
+    margin-top: 100px;
+  }
+}
+
+.enter_section {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+#enter_text {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  width: 400px;
+  height: 80px;
+  font-size: 38px
+}
+.task {
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+}
+
+#devour-btn {
+   border-top: 1px solid #96d1f8;
+   background: #f27b7b;
+   background: -webkit-gradient(linear, left top, left bottom, from(#d92727), to(#f27b7b));
+   background: -webkit-linear-gradient(top, #d92727, #f27b7b);
+   background: -moz-linear-gradient(top, #d92727, #f27b7b);
+   background: -ms-linear-gradient(top, #d92727, #f27b7b);
+   background: -o-linear-gradient(top, #d92727, #f27b7b);
+   padding: 7.5px 15px;
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px;
+   border-radius: 15px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: white;
+   font-size: 13px;
+   font-family: 'Lucida Grande', Helvetica, Arial, Sans-Serif;
+   text-decoration: none;
+   vertical-align: middle;
+}
+
+#devour-btn:hover {
+   border-top-color: #28597a;
+   background: #28597a;
+   color: #ccc;
+   }
+#devour-btn:active {
+   border-top-color: #1b435e;
+   background: #1b435e;
+   }
+
+.button-size {
+  padding-bottom: 20px;
+}
+#text-enter-button {
+  margin-top: 10px;
+  margin-bottom: 18px;
+}
+
+h1 {
+  font-size: 75px;
+  color: #ff3300;
+  margin-bottom: 75px;
+  font-family: 'Bungee Shade', cursive;
+}
